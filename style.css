@@ -8,15 +8,16 @@ body{
   display: flex;
 }
 .nav{
-  margin: 20px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .nav-text ul{
   list-style-type: none;
   display: flex;
 }
 .nav-text ul li a{
-  
+  margin: 20px;
   text-decoration: none;
+  
 }
+
