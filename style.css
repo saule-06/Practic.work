@@ -4,6 +4,53 @@
 body{
   margin: 0;
 }
+.col-4{ 
+  flex-basis: 28.3%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-3{
+  flex-basis: 20% ;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-6{
+  flex-basis: 16.6%;
+  flex-grow: 0;
+  flex-shrink:0 ;
+}
+.col-12{
+  flex: 100% 0 0;
+  display: flex;
+  justify-content: center;
+}
+.col-1{
+  flex: 8.3% 0 0;
+}
+.col-2{
+  flex: 16.6% 0 0;
+}
+.col-5{
+flex: 41.6% 0 0;
+}
+.col-6{
+  flex: 50% 0 0;
+}
+.col-7{
+  flex: 58.3% 0 0;
+}
+.col-8{
+  flex: 66.6% 0 0;
+}
+.col-9{
+  flex: 75% 0 0;
+}
+.col-10{
+  flex: 83% 0 0;
+}
+.col-11{
+ flex: 91.6% 0 0 ;
+}
 .header-section{
   display: flex;
   justify-content: end;
@@ -13,6 +60,7 @@ body{
 .nav{
   display: flex;
   width: 100%;
+  justify-content: end;
   
 }
 .nav-text ul{
@@ -41,6 +89,13 @@ body{
   height :600px;
   justify-content: ;
 }
+.text{
+  margin: 60px;
+  text-align: start;
+}
 .text h1{
-  font-size: ;
+  font-size: 50px;
+}
+.text p{
+
 }
